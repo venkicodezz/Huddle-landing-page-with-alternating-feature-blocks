@@ -1,0 +1,247 @@
+
+/* Media Query for screens between 992px and 1200px */
+@media screen and (max-width: 1200px) {
+    /* Adjust styles here for medium-sized screens */
+    header {
+        padding: 40px 60px;
+    }
+    
+    header button {
+        padding: 16px 44px;
+        font-size: 14px;
+    }
+    
+    .left h1 {
+        font-size: 32px;
+    }
+    
+    .left p {
+        width: 100%;
+        max-width: 480px;
+    }
+    
+    .right img {
+        width: 100%;
+    }
+    
+    .left button {
+        padding: 16px 40px;
+    }
+
+    .features-block{
+        width: 800px;
+        text-align: center;
+    }
+
+    .block{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .text-block{
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-block p{
+        width: 750px;
+        padding-block: 20px;
+    }
+
+    .text-block h2{
+      margin-top: 3rem;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+}
+
+/* Media Query for screens between 768px and 991px */
+@media screen and (max-width: 991px) {
+    /* Adjust styles here for smaller screens */
+    header {
+        padding: 30px 40px;
+    }
+
+    .hero-section{
+        flex-direction: column;
+    }
+
+    .hero-section .left{
+        text-align: center;
+    }
+    .hero-section .left p{
+        text-align: center;
+    }
+    
+    header button {
+        padding: 14px 34px;
+        font-size: 12px;
+    }
+    
+    .left h1 {
+        font-size: 34px;
+        margin-top: 20px;
+    }
+    
+    
+    
+    .right img {
+        margin-top: 30px;
+        width: 100%;
+
+    }
+    
+    .left button {
+        padding: 12px 30px;
+    }
+
+    .features-block{
+        width: 600px;
+        text-align: center;
+    }
+
+    .text-block p{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .message-block{
+        width: 600px;
+    }
+
+    .message-block h1{
+        font-size: 26px;
+    }
+    .message-block button{
+        padding: 18px 50px;
+        font-size: 18px;
+    }
+
+    footer{
+        flex-direction: row;
+    }
+
+    .hero-section .right img{
+        width: 580px;
+    }
+
+    footer{
+        padding: 20px 20px;
+    }
+    
+    /* Adjust other styles as needed */
+}
+
+/* Media Query for screens up to 767px (Mobile) */
+@media screen and (max-width: 767px) {
+    /* Adjust styles here for mobile screens */
+    header {
+        padding: 20px 35px; 
+    }
+    
+    header button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .left h1 {
+        font-size: 24px;
+        width: 100%;
+        max-width: none;
+    }
+    
+    .left p {
+        max-width: 100%;
+    }
+
+    
+    
+    .right img {
+        width: 200px;
+    }
+    
+    .left button {
+        padding: 12px 20px;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+
+    .links{
+        flex-direction: column;
+
+    }
+
+    .copyright{
+        position: absolute;
+        right: 40px;
+        bottom: 10px;
+    }
+
+    .social-icon{
+        margin: 0 auto;
+        margin-bottom: 14px;
+    }
+
+
+   
+
+    
+    /* Adjust other styles as needed */
+}
+
+@media screen and (max-width: 500px) {
+    
+    .hero-section .right img{
+        width: 380px;
+    }
+
+    .hero-section .left{
+        width: 300px;
+    }
+
+    .features-block{
+        width: 300px;
+        text-align: center;
+    }
+    .text-block p{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .block{
+        width: 300px;
+    }
+
+    .block img{
+        width: 150px;
+
+    }
+
+    .message-block{
+        width: 320px;
+    }
+
+    .message-block h1{
+        font-size: 20px;
+
+    }
+
+    .message-block button{
+        padding: 12px 26px;
+        
+    }
+
+    .logo img{
+        width: 140px;
+    }
+
+    
+
+
+}
